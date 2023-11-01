@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\lab03_ASP.Net-ObslugaFormularza.props" />
+</Project>

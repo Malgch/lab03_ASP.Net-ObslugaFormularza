@@ -1,0 +1,27 @@
+﻿@model lab03_ASP.Net_ObslugaFormularza.Models.Data
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h1>Result</h1>
+Potwierdzam Twoje dane
+<br />
+Name: @Model.Name
+<br />
+Email: @Model.Email
+<br />
+Password: @Model.Password
+<br />
+PhoneNumber: @Model.PhoneNumber
+<br />
+Age: @Model.Age
+<br />
+City: @Model.City
+<br />
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
