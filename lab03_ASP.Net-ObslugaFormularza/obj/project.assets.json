@@ -9544,23 +9544,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chmal\\.nuget\\packages\\": {},
+    "C:\\Users\\Gosia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studia\\.Net Core\\Repos\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza.csproj",
+      "projectUniqueName": "D:\\dokumenty\\Studia_wsei\\ASP.NET\\Repos\\ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza.csproj",
       "projectName": "lab03_ASP.Net-ObslugaFormularza",
-      "projectPath": "D:\\Studia\\.Net Core\\Repos\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza.csproj",
-      "packagesPath": "C:\\Users\\chmal\\.nuget\\packages\\",
-      "outputPath": "D:\\Studia\\.Net Core\\Repos\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\obj\\",
+      "projectPath": "D:\\dokumenty\\Studia_wsei\\ASP.NET\\Repos\\ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza.csproj",
+      "packagesPath": "C:\\Users\\Gosia\\.nuget\\packages\\",
+      "outputPath": "D:\\dokumenty\\Studia_wsei\\ASP.NET\\Repos\\ObslugaFormularza\\lab03_ASP.Net-ObslugaFormularza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gosia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9570,6 +9570,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9612,7 +9613,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

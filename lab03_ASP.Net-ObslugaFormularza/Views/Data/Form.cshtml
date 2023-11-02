@@ -16,6 +16,10 @@
                 <input asp-for="Name" /> 
             </div>
             <div>
+                <label asp-for="Surname"> Your surname</label>
+                <input asp-for="Surname" />
+            </div>
+            <div>
                 <label asp-for="Email"> Your e-mail</label>
                 <input asp-for="Email" />
             </div>
@@ -36,11 +40,13 @@
                 <input asp-for="Age" />
             </div>
             <div>
-                <label asp-for="City"> City</label>
-                <input asp-for="City" />
+                <select asp-for="City"
+                        asp-items="Html.GetEnumSelectList<Data.Cities>()">
+                </select>
             </div>
             <div>
-                <input type="submit" />
+                <input type="submit"/>
+                <input type="reset" value="clear" />
             </div>            
                 <div asp-validation-summary="All"></div> 
         </form>
@@ -48,7 +54,6 @@
         
     </div>
 </div>
-
 
 
 @section Scripts {
